@@ -1,0 +1,270 @@
+body {
+    font-family: brandon-grotesque, sans-serif;
+    margin:0;
+    background: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size:100px;
+}
+
+.link {
+    text-align: center;
+    font-size:18vh;
+    text-decoration:none;
+    font-family: 'Libre Barcode 39 Text', sans-serif;
+    color:#ffffff;
+}
+
+.fun {
+    text-decoration:none;
+    color:#000000;
+}
+
+.fixed-position {
+    position: sticky;
+    box-sizing:border-box;
+    background-color:#ffffff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 54px;
+    display: flex;
+    box-shadow: rgba(73, 73, 73) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
+    z-index: 9999;
+}
+
+.bgcolor {
+    box-sizing:border-box;
+    margin-left: 27px;
+    margin-top: 9px;
+    display: flex;
+}
+
+.bgcolor:hover {
+    cursor:pointer;
+}
+
+.button {
+    display: inline-block;
+    margin-left:-17px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #202020;
+    position: relative;
+    transition: margin-top 0.2s ease-in-out;
+}
+
+#white {
+    background-color: #ffffff;
+}
+
+#pink {
+    background-color: #ffc0cb;
+}
+
+#orange {
+    background-color: #ffab8c;
+}
+
+#yellow {
+    background-color: #ffee8b;
+}
+
+#green {
+    background-color: #cbfdb7;
+}
+
+#blue {
+    background-color: #87cefa;
+}
+
+#purple {
+    background-color: #dda0dd;
+}
+
+.button:hover {
+    margin-top:-5px;
+}
+
+.title {
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:#000000be;
+    margin-top:5px;
+    text-align:center;
+    font-size: 40px;
+    flex-grow:1;
+}
+
+.titlehome {
+    color:#000000be;
+}
+
+.titlehome:hover {
+    color:#000000;
+}
+
+.windows {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align:right;
+    font-family: sans-serif;
+    color:#000000be;
+    margin-right:27px;
+    margin-top: -5px;
+    font-size: 35px;
+    width:95px;
+}
+
+.windows:hover {
+    cursor:pointer;
+}
+
+#minimize {
+    position: relative;
+    top:-14px;
+    font-weight:bold;
+}
+
+#minimize:hover {
+    color:#00000059;
+}
+
+#window {
+    margin-left:2px;
+    margin-right:-1px;
+}
+
+#window:hover {
+    color:#00000059;
+}
+
+#close {
+    font-size:45px;
+}
+
+#close:hover {
+    color:red;
+}
+
+.body {
+    display:flex;
+}
+
+.column {
+    margin-top:25px;
+    width: 45vw;
+    margin-left:2vw;
+    margin-right:2vw;
+}
+
+.row {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    align-content:center;
+}
+
+.work {
+    width: 45vw;
+}
+
+.img {
+    width: 45vw;
+    margin:0;
+}
+
+.img:hover {
+    transition: transform 0.2s;
+    transform: scale(1.03);
+}
+
+.row {
+    margin-bottom: 0.5vw;
+}
+
+.row2 {
+    margin-bottom: 0.05vw;
+}
+
+.img2 {
+    width: 22vw;
+    margin:0;
+}
+
+.img2:hover {
+    transition: transform 0.2s;
+    transform: scale(1.03);
+}
+
+.img3 {
+    width: 14.6vw;
+    margin:0;
+}
+
+.img3:hover {
+    transition: transform 0.2s;
+    transform: scale(1.03);
+}
+
+.name {
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:20px;
+    margin:0;
+    margin-top:10px;
+    color:#000000;
+    text-decoration: none;
+}
+
+.name.header {
+    margin-top:15px;
+    margin-bottom:5px;
+}
+
+.tags {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:15px;
+    margin:0;
+    margin-top:6px;
+    color:rgb(160, 160, 160);
+}
+
+.text {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:medium;
+    margin-top:8px;
+    margin-bottom:30px;
+    line-height:120%;
+}
+
+.img:hover {
+    transition: transform 0.2s;
+    transform: scale(1.03);
+}
+/* 
+.footer {
+    position:fixed;
+    height:20px;
+    width:100vw;
+    bottom:0;
+    background-color:#ffffff;
+    box-shadow: rgba(73, 73, 73) 0px 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 0px 0px 4px, rgba(0, 0, 0, 0.2) 0px 0px 0px 6px, rgba(0, 0, 0, 0.1) 0px 0px 0px 8px, rgba(0, 0, 0, 0.05) 0px 0px 0px 10px;
+}
+
+.contact {
+    position:fixed;
+} */
