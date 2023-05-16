@@ -177,22 +177,23 @@ p {
     width: 45vw;
 }
 
-.img {
-    width: 45vw;
-    margin:0;
-}
-
-.img:hover {
-    transition: transform 0.2s;
-    transform: scale(1.03);
-}
-
 .row {
     margin-bottom: 0.5vw;
 }
 
 .row2 {
     margin-bottom: 0.05vw;
+}
+
+.img {
+    width: 45vw;
+    margin:0;
+    margin-bottom:1vw;
+}
+
+.img:hover {
+    transition: transform 0.2s;
+    transform: scale(1.03);
 }
 
 .img2 {
@@ -251,10 +252,25 @@ p {
     line-height:120%;
 }
 
-.img:hover {
-    transition: transform 0.2s;
-    transform: scale(1.03);
+.fixeda {
+    position:sticky;
+    top:80px;
 }
+
+.fixedb {
+    position:sticky;
+    top:107px;
+}
+
+.fixedc {
+    position:sticky;
+    top:134px;
+}
+
+.linked {
+    text-decoration: underline;
+}
+
 /* 
 .footer {
     position:fixed;
