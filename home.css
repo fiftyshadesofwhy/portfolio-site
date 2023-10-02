@@ -96,19 +96,17 @@ p {
     font-family: mr-eaves-sans, sans-serif;
     font-weight: 700;
     font-style: normal;
-    color:#000000be;
+    color:#000000a6;
     margin-top:5px;
     text-align:center;
     font-size: 40px;
     flex-grow:1;
+    transition: color 0.2s;
 }
 
-.titlehome {
-    color:#000000be;
-}
-
-.titlehome:hover {
+a.title:hover {
     color:#000000;
+    transition: color 0.2s;
 }
 
 .windows {
@@ -118,10 +116,10 @@ p {
     text-align:right;
     font-family: sans-serif;
     color:#000000be;
-    margin-right:27px;
+    margin-right:10px;
     margin-top: -5px;
     font-size: 35px;
-    width:95px;
+    width:90px;
 }
 
 .windows:hover {
@@ -284,3 +282,99 @@ p {
 .contact {
     position:fixed;
 } */
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    .button {
+        border: 1px solid #202020;
+    }
+
+    .windows {
+        margin-right:10px;
+        font-size: 30px;
+        width: 80px;
+    }
+
+    #minimize {
+        top:-13px;
+    }
+
+    #close {
+        font-size:40px;
+    }
+
+    .work {
+        width: 90vw;
+    }
+
+    .img {
+        width: 90vw;
+    }
+
+    .img2 {
+        width: 44.5vw;
+        margin:0;
+    }
+
+    .img3 {
+        width: 29vw;
+        margin-bottom:5px;
+    }
+
+    .body {
+        display: inline;
+    }
+
+    .column {
+        width: 90vw;
+        margin-left: 4vw;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .button {
+        border: 1px solid #202020;
+    }
+
+    .windows {
+        margin-right:10px;
+        font-size: 30px;
+        width: 80px;
+    }
+
+    #minimize {
+        top:-13px;
+    }
+
+    #close {
+        font-size:40px;
+    }
+    
+    .work {
+        width: 90vw;
+    }
+    
+    .img {
+        width: 90vw;
+    }
+
+    .img2 {
+        width: 44.5vw;
+        margin:0;
+    }
+
+    .img3 {
+        width: 29vw;
+        margin-bottom:5px;
+    }
+    
+    .body {
+        display: inline;
+    }
+    
+    .column {
+        width: 90vw;
+        margin-left: 4vw;
+    }
+}
