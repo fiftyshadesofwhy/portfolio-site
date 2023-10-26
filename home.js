@@ -6,6 +6,7 @@ $(document).ready(function() {
     $("#green").click(changeGreen);
     $("#blue").click(changeBlue);
     $("#purple").click(changePurple);
+    $("#close").click(openRandom);
 });
 
 function changeWhite() {
@@ -48,4 +49,10 @@ function changePurple() {
     $("body").css('background-color', '#dda0dd59');
     $(".fixed-position").css('box-shadow', '#ba55d3 0px 5px, rgba(186,85,211, 0.3) 0px 10px, rgba(186,85,211, 0.2) 0px 15px, rgba(186,85,211, 0.1) 0px 20px, rgba(186,85,211, 0.05) 0px 25px');
     $(".fixed-position").css('background-color', '#dda0dd');
+}
+
+function openRandom() {
+    let r = Math.floor(Math.random()*4);
+    const sites = ["https://fiftyshadesofwhy.github.io/fandom-kingdoms/main.html", "https://fiftyshadesofwhy.github.io/design3a/ordinaryextraordinary/main.html", "https://nostalgia-tv.glitch.me/", "https://fiftyshadesofwhy.github.io/design3a/subcultures/harajukufashion/harajuku.html"]
+    window.open(sites[r], "close");
 }
