@@ -238,6 +238,11 @@ h1 {
         margin-bottom: 1vh;
     }
 
+    .title {
+        margin-top:10px;
+        font-size:30px;
+    }
+
     .mobile {
         display: block;
     }
@@ -286,6 +291,10 @@ h1 {
     .finer-print2 {
         font-size: 1vh;
         margin-bottom: 1vh;
+    }
+
+    .title {
+        font-size:35px;
     }
 
     .mobile {
