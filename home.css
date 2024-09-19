@@ -338,6 +338,11 @@ a.title:hover {
         margin-left: 4vw;
     }
 
+    .title {
+        margin-top:10px;
+        font-size:30px;
+    }
+
     .mobile { 
         display: block; 
     }
@@ -392,6 +397,10 @@ a.title:hover {
     .column {
         width: 90vw;
         margin-left: 4vw;
+    }
+
+    .title {
+        font-size:35px;
     }
 
     .mobile { 

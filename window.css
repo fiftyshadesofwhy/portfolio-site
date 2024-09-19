@@ -254,6 +254,11 @@ img {
         margin-right:7%;
     }
 
+    .title {
+        margin-top:10px;
+        font-size:30px;
+    }
+
     .mobile { 
         display: block; 
     }
@@ -295,6 +300,10 @@ img {
     .buttons {
         margin-left:10%;
         margin-right:10%;
+    }
+
+    .title {
+        font-size:35px;
     }
 
     .mobile { 
