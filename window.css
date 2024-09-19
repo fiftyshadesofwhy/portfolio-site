@@ -211,3 +211,97 @@ img {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 3vh 6vh -1.2vh inset, rgba(0, 0, 0, 0.3) 0px 1.8vh 3.6vh -1.8vh inset;
     /* color:red; */
 }
+
+.mobile { 
+    display: none; 
+}
+
+.desktop { 
+    display: block; 
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    .button {
+        border: 1px solid #202020;
+    }
+
+    .windows {
+        margin-right:10px;
+        font-size: 30px;
+        width: 80px;
+    }
+
+    #minimize {
+        top:-13px;
+    }
+
+    #close {
+        font-size:40px;
+    }
+
+    .about {
+        height:60vh;
+        width:80vw;
+    }
+
+    .text {
+        width:75vw;
+    }
+
+    .buttons {
+        margin-left:7%;
+        margin-right:7%;
+    }
+
+    .mobile { 
+        display: block; 
+    }
+
+    .desktop { 
+        display: none; 
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .button {
+        border: 1px solid #202020;
+    }
+
+    .windows {
+        margin-right:10px;
+        font-size: 30px;
+        width: 80px;
+    }
+
+    #minimize {
+        top:-13px;
+    }
+
+    #close {
+        font-size:40px;
+    }
+
+    .about {
+        height:60vh;
+        width:80vw;
+    }
+
+    .text {
+        width:75vw;
+    }
+
+    .buttons {
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+    .mobile { 
+        display: block; 
+    }
+    
+    .desktop { 
+        display: none; 
+    }
+}

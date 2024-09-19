@@ -269,6 +269,14 @@ a.title:hover {
     text-decoration: underline;
 }
 
+.mobile { 
+    display: none; 
+}
+
+.desktop { 
+    display: block; 
+}
+
 /* 
 .footer {
     position:fixed;
@@ -329,6 +337,14 @@ a.title:hover {
         width: 90vw;
         margin-left: 4vw;
     }
+
+    .mobile { 
+        display: block; 
+    }
+
+    .desktop { 
+        display: none; 
+    }
 }
 
 /* For Tablets */
@@ -376,5 +392,13 @@ a.title:hover {
     .column {
         width: 90vw;
         margin-left: 4vw;
+    }
+
+    .mobile { 
+        display: block; 
+    }
+    
+    .desktop { 
+        display: none; 
     }
 }

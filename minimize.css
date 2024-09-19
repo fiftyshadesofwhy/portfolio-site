@@ -183,31 +183,45 @@ h1 {
     margin-bottom: 1vh;
 }
 
+.mobile {
+    display: none;
+}
+
+.desktop { 
+    display: block;
+}
+
 /* For Mobile */
 @media screen and (max-width: 540px) {
+
+    .text {
+        margin-left: 5vh;
+    }
+
     h1 {
-        font-size:20vh;
+        font-size:17vh;
         margin-bottom:5vh;
-        margin-top:10vh;
+        margin-top:5vh;
     }
     
     .hehe {
-        font-size: 5vh;
+        font-size: 4vh;
         margin:2vh 0vh 2vh 0vh;
     }
     
     .percent {
-        font-size: 5vh;
+        font-size: 4vh;
     }
     
     .qrcode {
         margin-top:1vh;
-        height: 10vh;
+        height:20vw;
+        width:20vw;
     }
     
     .print {
-        display:inline-block;
-        margin-left: 4vh;
+        width: 60vw;
+        margin-left: 5vw;
     }
     
     .fine-print {
@@ -215,13 +229,21 @@ h1 {
     }
     
     .finer-print {
-        margin-top:4vh;
+        margin-top:2vh;
         font-size: 1vh;
     }
     
     .finer-print2 {
         font-size: 1vh;
         margin-bottom: 1vh;
+    }
+
+    .mobile {
+        display: block;
+    }
+    
+    .desktop { 
+        display: none;
     }
 }
 
@@ -264,5 +286,13 @@ h1 {
     .finer-print2 {
         font-size: 1vh;
         margin-bottom: 1vh;
+    }
+
+    .mobile {
+        display: block;
+    }
+    
+    .desktop { 
+        display: none;
     }
 }
